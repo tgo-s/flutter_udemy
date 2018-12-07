@@ -37,7 +37,7 @@ class _ProductManagerState extends State<ProductManager> {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
+    return Column( 
       children: <Widget>[
         Container(
           child: ProductControl(_addProduct),
